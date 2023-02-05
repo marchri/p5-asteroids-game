@@ -248,7 +248,7 @@
 			
 			constructor()
 			{
-				this.image = loadImage("game-assets/spaceship-2.png");
+				this.image = loadImage("game-assets/bubble-tea.png");
 			}
 			
 			display()
@@ -361,7 +361,7 @@
 		*/
 		function preload() 
 		{
-			background = loadImage("game-assets/moon-bg.jpg");		// load the background-image
+			background = loadImage("game-assets/backround.jpg");		// load the background-image
 			asteroidImage = loadImage("game-assets/asteroid-2.png"); // load once and the pass to Asteroid so that will not load each time an Asteroid is created
 			spaceship = new SpaceShip();
 			
