@@ -16,7 +16,7 @@
 				this.maxSpeed = 12;
 				
 				this.image = asteroidImage;
-				this.explosionImage = loadImage("game-assets/explosion-2.png");
+				this.explosionImage = loadImage("game-assets/explode-boba.png");
 				this.load();
 			}
 			
@@ -308,7 +308,7 @@
 				
 				for (let i = 0; i < this.livesLeft; i++)
 				{
-					let live = loadImage("game-assets/spaceship-miniature.png");
+					let live = loadImage("game-assets/bobaa.png");
 					this.lives[i] = live;
 				}
 			}
