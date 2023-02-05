@@ -369,7 +369,7 @@
 			missilePack = new MissilePack();
 			
 			gameSounds 
-			$.get('game-assets/pure-data-patches/game-patch-2.pd', function(patchStr) {
+			$.get('game-assets/bip.pd', function(patchStr) {
 				  gameSounds = Pd.loadPatch(patchStr);
 				})
 		}
