@@ -83,7 +83,7 @@
 			{
 				this.x = 0;
 				this.y = 0;
-				this.image = loadImage("game-assets/missile-pack-2.png");
+				this.image = loadImage("game-assets/fairy.png");
 			}
 			
 			newMissilePack(score)
@@ -365,7 +365,7 @@
 			asteroidImage = loadImage("game-assets/boba.png"); // load once and the pass to Asteroid so that will not load each time an Asteroid is created
 			spaceship = new SpaceShip();
 			
-			missileImage = loadImage("game-assets/missile-2.png");
+			missileImage = loadImage("game-assets/sfougari.png");
 			missilePack = new MissilePack();
 			
 			gameSounds 
