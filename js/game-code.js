@@ -16,7 +16,7 @@
 				this.maxSpeed = 12;
 				
 				this.image = asteroidImage;
-				this.explosionImage = loadImage("game-assets/explode-boba.png");
+				this.explosionImage = loadImage("game-assets/boba-explode.png");
 				this.load();
 			}
 			
