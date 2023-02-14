@@ -308,7 +308,7 @@
 				
 				for (let i = 0; i < this.livesLeft; i++)
 				{
-					let live = loadImage("game-assets/bobaa.png");
+					let live = loadImage("game-assets/bubble-tea-2.png");
 					this.lives[i] = live;
 				}
 			}
