@@ -518,7 +518,7 @@
 			{
 				text('Press N to start a new game^-^.', 300, 300, 800, 200);
 				textSize(25);
-				text('Use the left and right arrows to avoid the TAPIOKA PERALS.', 340, 360, 800, 200);
+				text('Use the left and right arrows to avoid the TAPIOKAS.', 340, 360, 800, 200);
 				text('Get the sponges and fire by pressing the Space bar!', 340, 390, 800, 200);
 			}
 			
